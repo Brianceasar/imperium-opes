@@ -686,7 +686,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Counter CSS Start */
 .counter-section {
-    background-image: url(../img/counter/se2.jpg);
+    // background-image: url(../img/counter/se2.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
@@ -1445,7 +1445,7 @@ h1,h2,h3,h4,h5,h6 {
     .slider-items {
         background-position: center center;
         background-size: cover;
-        height: 800px;
+        height: 500px;
         position: relative;
         z-index: 0;
 
@@ -2042,6 +2042,7 @@ h1,h2,h3,h4,h5,h6 {
 
     .counter-text {
         border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
 
         &::before {
             display: none;

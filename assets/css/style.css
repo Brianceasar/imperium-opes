@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
 }
 .section-title p {
-  /* max-width: 720px; */
+  max-width: 720px;
   color: #4a483e;
   margin: 0 auto;
 }
@@ -589,7 +589,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Service CSS End */
 /* Counter CSS Start */
 .counter-section {
-  background-image: url(../img/counter/se2.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1207,7 +1206,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-slider .slider-items {
   background-position: center center;
   background-size: cover;
-  height: 800px;
+  height: 500px;
   position: relative;
   z-index: 0;
 }
@@ -1710,6 +1709,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .counter-style-two .counter-text {
   border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
 }
 .counter-style-two .counter-text::before {
   display: none;

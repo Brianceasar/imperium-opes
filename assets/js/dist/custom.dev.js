@@ -225,8 +225,7 @@ jQuery(function ($) {
   $(window).on('load', function () {
     $(".loader-content").fadeOut(1000);
   }); // Switch Btn
-
-  $('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
+  // $('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
 }(jQuery)); // function to set a given theme/color-scheme
 
 function setTheme(themeName) {
